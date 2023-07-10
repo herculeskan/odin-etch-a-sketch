@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.footer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.board {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    border: solid black;
+}
