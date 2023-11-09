@@ -1,29 +1,49 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 400px;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.footer {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 500px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+/* los botones  */
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 200px;
+}
+.boton {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* a los hijos de los botones */
+.boton:nth-child(2) {
+  background-color: #f44336;
+}
+
+.boton:nth-child(1) {
+  background-color: #4caf50;
+}
+.boton:nth-child(3) {
+  background-color: #ffeb3b;
+  color: black;
 }
 .board {
-    width: 400px;
-    height: 400px;
-    display: grid;
-    border: solid black;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  border: solid black;
 }
