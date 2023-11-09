@@ -1,4 +1,3 @@
 document.addEventListener('DOMContentLoaded',function(){
-    
-    console.log("hi")
+console.log(picha)    console.log("hi")
 })
