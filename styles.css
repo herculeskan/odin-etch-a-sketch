@@ -41,9 +41,18 @@ body {
   background-color: #ffeb3b;
   color: black;
 }
-.board {
+#myCanvas {
   width: 400px;
   height: 400px;
   display: grid;
   border: solid black;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+canvas {
+  background: #eee;
+  display: block;
+  margin: 0 auto;
 }
