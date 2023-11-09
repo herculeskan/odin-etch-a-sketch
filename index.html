@@ -2,28 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>SketchOrama</title>
-    <script src="main.js"></script>
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <header><h1>Sckecthorama</h1></header>
-    <section>
-   
-        <!--este es el aparato -->
- <canvas id="myCanvas"></canvas>     
-      <div class="botones">
-        <!--este es el aparato -->
-        <button class="boton" id="back">back</button>
-        <button class="boton" id="random">random</button>
-        <button class="boton" id="reset">reset</button>
+    <header>
+      <h1>Etch a Sketch</h1>
+    </header>
+    <main>
+      <div class="options">
+        <button class="color picked" value="color">Color</button>
+        <button class="eraser" value="eraser">Eraser</button>
+        <button class="clean" value="clean">Clean</button>
+        <input type="color" name="" id="colorPicker" />
+        <div class="rangeDiv">
+          <div class="rangeValue"></div>
+          <input type="range" name="" id="range" min="1" max="32" step="1" />
+        </div>
       </div>
-    </section>
+      <div class="container"></div>
+    </main>
+    <footer>
+      <a href="https://github.com/juanguerrero09" target="_blank">
+        JuanGuerrero09 <i class="fa-brands fa-github"></i>
+      </a>
+    </footer>
   </body>
 </html>
-<!-- titulo - select size
-    
-        necesitamos un cuadro. 
-    necesitamos 3 botones(back,random,reset) -->
-<!-- cuadro para dibujar -->
